@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ABEDA0A1B7C7E3400C71B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEDA091B7C7E3400C71B0B /* main.m */; };
+		9ABEDA0D1B7C7E3400C71B0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEDA0C1B7C7E3400C71B0B /* AppDelegate.m */; };
+		9ABEDA101B7C7E3400C71B0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEDA0F1B7C7E3400C71B0B /* ViewController.m */; };
+		9ABEDA131B7C7E3400C71B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEDA111B7C7E3400C71B0B /* Main.storyboard */; };
+		9ABEDA151B7C7E3400C71B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEDA141B7C7E3400C71B0B /* Images.xcassets */; };
+		9ABEDA181B7C7E3400C71B0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEDA161B7C7E3400C71B0B /* LaunchScreen.xib */; };
+		9ABEDA241B7C7E3400C71B0B /* SDRecordButton_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEDA231B7C7E3400C71B0B /* SDRecordButton_DemoTests.m */; };
+		9ABEDA341B7C92D000C71B0B /* SDRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEDA331B7C92D000C71B0B /* SDRecordButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ABEDA1E1B7C7E3400C71B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ABED9FC1B7C7E3400C71B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ABEDA031B7C7E3400C71B0B;
+			remoteInfo = "SDRecordButton-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ABEDA041B7C7E3400C71B0B /* SDRecordButton-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDRecordButton-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABEDA081B7C7E3400C71B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABEDA091B7C7E3400C71B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ABEDA0B1B7C7E3400C71B0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ABEDA0C1B7C7E3400C71B0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ABEDA0E1B7C7E3400C71B0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ABEDA0F1B7C7E3400C71B0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ABEDA121B7C7E3400C71B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ABEDA141B7C7E3400C71B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9ABEDA171B7C7E3400C71B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9ABEDA1D1B7C7E3400C71B0B /* SDRecordButton-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDRecordButton-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABEDA221B7C7E3400C71B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABEDA231B7C7E3400C71B0B /* SDRecordButton_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDRecordButton_DemoTests.m; sourceTree = "<group>"; };
+		9ABEDA321B7C92D000C71B0B /* SDRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRecordButton.h; sourceTree = "<group>"; };
+		9ABEDA331B7C92D000C71B0B /* SDRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRecordButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABEDA011B7C7E3400C71B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABEDA1A1B7C7E3400C71B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ABED9FB1B7C7E3400C71B0B = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA061B7C7E3400C71B0B /* SDRecordButton-Demo */,
+				9ABEDA201B7C7E3400C71B0B /* SDRecordButton-DemoTests */,
+				9ABEDA051B7C7E3400C71B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABEDA051B7C7E3400C71B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA041B7C7E3400C71B0B /* SDRecordButton-Demo.app */,
+				9ABEDA1D1B7C7E3400C71B0B /* SDRecordButton-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABEDA061B7C7E3400C71B0B /* SDRecordButton-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA311B7C92D000C71B0B /* SDRecordButton */,
+				9ABEDA0B1B7C7E3400C71B0B /* AppDelegate.h */,
+				9ABEDA0C1B7C7E3400C71B0B /* AppDelegate.m */,
+				9ABEDA0E1B7C7E3400C71B0B /* ViewController.h */,
+				9ABEDA0F1B7C7E3400C71B0B /* ViewController.m */,
+				9ABEDA111B7C7E3400C71B0B /* Main.storyboard */,
+				9ABEDA141B7C7E3400C71B0B /* Images.xcassets */,
+				9ABEDA161B7C7E3400C71B0B /* LaunchScreen.xib */,
+				9ABEDA071B7C7E3400C71B0B /* Supporting Files */,
+			);
+			path = "SDRecordButton-Demo";
+			sourceTree = "<group>";
+		};
+		9ABEDA071B7C7E3400C71B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA081B7C7E3400C71B0B /* Info.plist */,
+				9ABEDA091B7C7E3400C71B0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ABEDA201B7C7E3400C71B0B /* SDRecordButton-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA231B7C7E3400C71B0B /* SDRecordButton_DemoTests.m */,
+				9ABEDA211B7C7E3400C71B0B /* Supporting Files */,
+			);
+			path = "SDRecordButton-DemoTests";
+			sourceTree = "<group>";
+		};
+		9ABEDA211B7C7E3400C71B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA221B7C7E3400C71B0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ABEDA311B7C92D000C71B0B /* SDRecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEDA321B7C92D000C71B0B /* SDRecordButton.h */,
+				9ABEDA331B7C92D000C71B0B /* SDRecordButton.m */,
+			);
+			name = SDRecordButton;
+			path = ../../SDRecordButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABEDA031B7C7E3400C71B0B /* SDRecordButton-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABEDA271B7C7E3400C71B0B /* Build configuration list for PBXNativeTarget "SDRecordButton-Demo" */;
+			buildPhases = (
+				9ABEDA001B7C7E3400C71B0B /* Sources */,
+				9ABEDA011B7C7E3400C71B0B /* Frameworks */,
+				9ABEDA021B7C7E3400C71B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDRecordButton-Demo";
+			productName = "SDRecordButton-Demo";
+			productReference = 9ABEDA041B7C7E3400C71B0B /* SDRecordButton-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ABEDA1C1B7C7E3400C71B0B /* SDRecordButton-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABEDA2A1B7C7E3400C71B0B /* Build configuration list for PBXNativeTarget "SDRecordButton-DemoTests" */;
+			buildPhases = (
+				9ABEDA191B7C7E3400C71B0B /* Sources */,
+				9ABEDA1A1B7C7E3400C71B0B /* Frameworks */,
+				9ABEDA1B1B7C7E3400C71B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ABEDA1F1B7C7E3400C71B0B /* PBXTargetDependency */,
+			);
+			name = "SDRecordButton-DemoTests";
+			productName = "SDRecordButton-DemoTests";
+			productReference = 9ABEDA1D1B7C7E3400C71B0B /* SDRecordButton-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABED9FC1B7C7E3400C71B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sebastian Dobrincu";
+				TargetAttributes = {
+					9ABEDA031B7C7E3400C71B0B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9ABEDA1C1B7C7E3400C71B0B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9ABEDA031B7C7E3400C71B0B;
+					};
+				};
+			};
+			buildConfigurationList = 9ABED9FF1B7C7E3400C71B0B /* Build configuration list for PBXProject "SDRecordButton-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ABED9FB1B7C7E3400C71B0B;
+			productRefGroup = 9ABEDA051B7C7E3400C71B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABEDA031B7C7E3400C71B0B /* SDRecordButton-Demo */,
+				9ABEDA1C1B7C7E3400C71B0B /* SDRecordButton-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABEDA021B7C7E3400C71B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEDA131B7C7E3400C71B0B /* Main.storyboard in Resources */,
+				9ABEDA181B7C7E3400C71B0B /* LaunchScreen.xib in Resources */,
+				9ABEDA151B7C7E3400C71B0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABEDA1B1B7C7E3400C71B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABEDA001B7C7E3400C71B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEDA101B7C7E3400C71B0B /* ViewController.m in Sources */,
+				9ABEDA341B7C92D000C71B0B /* SDRecordButton.m in Sources */,
+				9ABEDA0D1B7C7E3400C71B0B /* AppDelegate.m in Sources */,
+				9ABEDA0A1B7C7E3400C71B0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABEDA191B7C7E3400C71B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEDA241B7C7E3400C71B0B /* SDRecordButton_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ABEDA1F1B7C7E3400C71B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ABEDA031B7C7E3400C71B0B /* SDRecordButton-Demo */;
+			targetProxy = 9ABEDA1E1B7C7E3400C71B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ABEDA111B7C7E3400C71B0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABEDA121B7C7E3400C71B0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ABEDA161B7C7E3400C71B0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABEDA171B7C7E3400C71B0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ABEDA251B7C7E3400C71B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ABEDA261B7C7E3400C71B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABEDA281B7C7E3400C71B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDRecordButton-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ABEDA291B7C7E3400C71B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDRecordButton-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ABEDA2B1B7C7E3400C71B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDRecordButton-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDRecordButton-Demo.app/SDRecordButton-Demo";
+			};
+			name = Debug;
+		};
+		9ABEDA2C1B7C7E3400C71B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDRecordButton-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDRecordButton-Demo.app/SDRecordButton-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABED9FF1B7C7E3400C71B0B /* Build configuration list for PBXProject "SDRecordButton-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABEDA251B7C7E3400C71B0B /* Debug */,
+				9ABEDA261B7C7E3400C71B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABEDA271B7C7E3400C71B0B /* Build configuration list for PBXNativeTarget "SDRecordButton-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABEDA281B7C7E3400C71B0B /* Debug */,
+				9ABEDA291B7C7E3400C71B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABEDA2A1B7C7E3400C71B0B /* Build configuration list for PBXNativeTarget "SDRecordButton-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABEDA2B1B7C7E3400C71B0B /* Debug */,
+				9ABEDA2C1B7C7E3400C71B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ABED9FC1B7C7E3400C71B0B /* Project object */;
+}

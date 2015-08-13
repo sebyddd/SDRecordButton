@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A235d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ssn-nt-zVq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dY9-fr-6rB">
+                                <rect key="frame" x="135" y="38" width="104" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="sax-G5-f89"/>
+                                    <constraint firstAttribute="width" constant="104" id="ucU-l8-VME"/>
+                                </constraints>
+                                <state key="normal" title="Reset progress">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetProgressTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nlx-Pw-rJT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J01-1W-6Jd">
+                                <rect key="frame" x="104" y="74" width="167" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="Q5j-cI-Pwo"/>
+                                    <constraint firstAttribute="height" constant="30" id="x9A-5c-2Tg"/>
+                                </constraints>
+                                <state key="normal" title="Generate random colors">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomColorTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cCn-J2-8G8"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXt-9u-b3H" customClass="SDRecordButton">
+                                <rect key="frame" x="155" y="557" width="65" height="65"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="RIJ-1C-BAT"/>
+                                    <constraint firstAttribute="height" constant="65" id="WjN-m7-8cR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                        <color key="value" red="0.98084935900000003" green="0.98084935900000003" blue="0.98084935900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
+                                        <color key="value" red="0.88498033549999999" green="0.1057542113" blue="0.24745814930000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="rXt-9u-b3H" secondAttribute="bottom" constant="45" id="88z-Ha-STh"/>
+                            <constraint firstAttribute="centerX" secondItem="rXt-9u-b3H" secondAttribute="centerX" id="BRP-ot-NfN"/>
+                            <constraint firstAttribute="centerX" secondItem="dY9-fr-6rB" secondAttribute="centerX" constant="0.5" id="Ihb-wi-bEs"/>
+                            <constraint firstItem="ssn-nt-zVq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TOM-go-vZ5"/>
+                            <constraint firstItem="ssn-nt-zVq" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Uht-5Y-zqc"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ssn-nt-zVq" secondAttribute="bottom" id="ViS-yT-gbD"/>
+                            <constraint firstItem="J01-1W-6Jd" firstAttribute="top" secondItem="dY9-fr-6rB" secondAttribute="bottom" constant="6" id="Yxy-90-UNH"/>
+                            <constraint firstItem="dY9-fr-6rB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="18" id="as0-cf-6R7"/>
+                            <constraint firstAttribute="trailing" secondItem="ssn-nt-zVq" secondAttribute="trailing" id="e3E-WT-eeC"/>
+                            <constraint firstAttribute="centerX" secondItem="J01-1W-6Jd" secondAttribute="centerX" id="l2P-q7-EWS"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="recordButton" destination="rXt-9u-b3H" id="dEL-p1-gAF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="702" height="1256"/>
+    </resources>
+</document>
