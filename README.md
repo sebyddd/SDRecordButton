@@ -14,7 +14,6 @@
              alt="Community Approved">
     </a>
 </p>
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/sebyddd/SDRecordButton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)     ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)![Comunity Approved](https://img.shields.io/badge/community-approved-ff69b4.svg)
 
 # SDRecordButton
 An animated UIButton subclass, meant to be used as a recording button. Clean, highly customizable, lightweight.
