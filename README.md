@@ -1,5 +1,19 @@
 ![SDRecordButton](https://dl.dropboxusercontent.com/s/9954jio68aqu5t6/sdrecordbutton2.png?dl=0)
 
+<p align="center">
+    <a href="https://gitter.im/sebyddd/SDRecordButton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
+        <img src="https://badges.gitter.im/Join Chat.svg"
+             alt="Gitter">
+    </a>
+    <a href="http://sebastiandobrincu.com">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg"
+             alt="MIT">
+    </a>
+    <a href="http://sebastiandobrincu.com">
+        <img src="https://img.shields.io/badge/community-approved-ff69b4.svg"
+             alt="Community Approved">
+    </a>
+</p>
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/sebyddd/SDRecordButton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)     ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)![Comunity Approved](https://img.shields.io/badge/community-approved-ff69b4.svg)
 
 # SDRecordButton
