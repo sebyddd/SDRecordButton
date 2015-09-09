@@ -23,7 +23,7 @@ const int videoDuration  = 5;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self configureButtonWithColor:[UIColor whiteColor] progressColor:[UIColor redColor]];
+    [self configureButtonWithColor:[UIColor whiteColor] progressColor:[UIColor colorWithRed:0.99 green:0.21 blue:0.43 alpha:1]];
 }
 
 - (void)configureButtonWithColor:(UIColor*)color progressColor:(UIColor *)progressColor {
