@@ -1,4 +1,7 @@
-![SDRecordButton](https://dl.dropboxusercontent.com/s/9954jio68aqu5t6/sdrecordbutton2.png?dl=0)
+<p align="center">
+ <img src="https://dl.dropboxusercontent.com/s/9954jio68aqu5t6/sdrecordbutton2.png?dl=0" alt="SDRecordButton"/>
+</p>
+
 
 <p align="center">
     <a href="https://gitter.im/sebyddd/SDRecordButton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
