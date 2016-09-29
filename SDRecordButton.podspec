@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDRecordButton"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A handy UIButton subclass, meant to be used as a recording button."
   s.homepage     = "https://github.com/sebyddd/SDRecordButton"
   s.screenshots  = "https://dl.dropboxusercontent.com/s/9954jio68aqu5t6/sdrecordbutton2.png?dl=0"
