@@ -44,7 +44,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 ## Demo
 
 <p align="center">
- <a href="https://dl.dropboxusercontent.com/s/crzbg43r26euip9/demo.gif?dl=0"><img src="https://dl.dropboxusercontent.com/s/9954jio68aqu5t6/sdrecordbutton2.png?dl=0" alt="SDRecordButton"/></a>
+ <a href="https://dl.dropboxusercontent.com/s/crzbg43r26euip9/demo.gif?dl=0"><img src="https://dl.dropboxusercontent.com/s/3ubjd5a4kp647jn/nsgif-preview.png?dl=0" alt="SDRecordButton"/></a>
 </p>
 
 ## Detecting recording state
